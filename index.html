@@ -5,40 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Wes & Travis Single Page eCommerce</title>
 </head>
 <header>
     <nav>
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">PRODUCTS</a></li>
-            <li><a href="">CONTACT</a></li>
-            <li><a href="">
+            <a href="#">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#products">PRODUCTS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#">
                     CARA
                     <img src="./assets/icons8-pottery-96.png" alt="logo for CARA CARA website">
                     CARA
-            </a></li>
-            <li><a href="">
-                <input type="">
-                <img src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="search bar">
-            </a></li>
-            <li><a href="">CART(0)</a></li>
-            <span></span>>
+            </a>
+                <input type="text">
+                <img class="mag-glass" src="./assets/1200px-Google_Magnifying_Glass.svg.png" alt="search bar">
+            <a href="#">CART(0)</a>
+            <hr>
         </ul>
     </nav>
 </header>
+
 <body>
-    <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Hands making a pot">
-    <p>Ceramics crafted by hand...</p>
-    <p>...from the ground up</p>
-    <h1>about us</h1>
-    <span></span>
+    <div class="main-picture">
+        <img id="main-img" src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="Hands making a pot">
+        <p class="main-p">Ceramics crafted by hand...</p>
+        <p>...from the ground up</p>
+    </div>
+    <h1 id="about">about us</h1>
+    <hr>
     <p>Eget duis at tellus at urna condimentum mattis. Risus nullam eget felis eget nunc. Blandit aliquam etiam erat velit scelerisque in. Amet cursus sit amet dictum sit. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Vitae congue eu consequat ac felis donec et. Fringilla phasellus faucibus scelerisque eleifend. Feugiat nisl pretium fusce id velit.</p>
     <img src="./assets/Vase_Dame_2048x2048.jpg" alt="plant in vase">
     <p>Nisl vel pretium lectus quam id. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Tellus in hac habitasse platea dictumst vestibulum rhoncus est. Interdum velit euismod in pellentesque massa. Vel pretium lectus quam id leo. Ipsum suspendisse ultrices gravida dictum fusce ut. Ac turpis egestas integer eget aliquet. Eget lorem dolor sed viverra ipsum. Lorem dolor sed viverra ipsum. <br><br> Orci eu lobortis elementum nibh tellus molestie nunc non. Iaculis urna id volutpat lacus laoreet. Pulvinar etiam non quam lacus suspendisse. Vitae turpis massa sed elementum tempus egestas sed. Id interdum velit laoreet id donec ultrices tincidunt arcu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Nisl suscipit adipiscing bibendum est ultricies.</p>
     <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="wheat plant in a vase">
-    <h1>our products</h1>
+    <h1 id="products">our products</h1>
+    <hr>
     <div class="product-card">
         <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="mundo bowls">
         <h2>mundo bowls $48.00</h2>
@@ -111,12 +113,16 @@
         <a href="">learn more</a>
         <button>add to cart</button>
     </div>
-    <h1>contact us</h1>
-    <span></span>
-    <h3>email</h3>
-    <input type="text">
-    <h3>message</h3>
-    <input type="text">
+    <h1 id="contact">contact us</h1>
+    <hr>
+    <section class="text-input">
+        <label for="reg-text"><h3>Email</h3></label>
+        <input type="text" name="reg-text" id="reg-text">
+    </section>
+    <section class="text-field">
+        <label for="field">Message</label><br>
+        <textarea name="field" id="field" cols="30" rows="10"></textarea>
+    </section>
     <button>send</button>
     <footer>
         <img src="./assets/icons8-youtube-96.png" alt="youtube icon">
