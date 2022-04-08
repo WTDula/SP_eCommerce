@@ -1,5 +1,7 @@
 # SP_eCommerce
 
+By Travis Dula and Wesley Malott
+
 Single Page eCommerce Project
 
 User Stories
