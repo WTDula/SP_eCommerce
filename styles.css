@@ -53,28 +53,33 @@ a {
     grid-column-end: 4;
 }
 
+
 nav .nav-container{
     justify-self: center;
 }
 
 nav .nav-logo{
     justify-self: center;
+    display: grid;
+    grid-template-areas: "left mid right";
+    align-items: center;
 }
 
 .top-vase{
     height: 40px;
-    padding-top: 5px;
 }
 
 nav .search-cart{
     justify-self: right;
+    display: grid;
+    grid-template-areas: "left mid right";
+    align-items: center;
 }
 
 .mag-glass {
     max-width: 3rem;
-    margin-left: -40px;
-    margin-right: 2px;
-    margin-bottom: -10px;
+    margin-left: -30px;
+    margin-bottom: -3px;
 }
 
 .main-p {
