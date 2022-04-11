@@ -92,15 +92,13 @@ nav .search-cart{
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,50px);
+    grid-template-rows: repeat(10,5rem);
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0) 60%, black), 
+                        linear-gradient(to left, rgba(128, 128, 128, 0) 60%, black), 
+                        url("./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
 }
-.picture-background{
-    border-top: 70rem solid black;
-    border-bottom: hidden;
-    margin-top: -4.7rem;
-    width: 1000%;
-    justify-self: center;
-}
+
 .main-left-p{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -114,13 +112,13 @@ nav .search-cart{
     text-transform: uppercase;
 }
 
-#main-img{
+/* #main-img{
     max-width: 100%;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-}
+} */
 
 .main-right-p{
     grid-column-start: 3;
