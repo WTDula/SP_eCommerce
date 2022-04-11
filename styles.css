@@ -39,8 +39,9 @@ span{
 
 h1 {
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 4.5rem;
 }
+
 
 a {
     text-decoration: none;
@@ -59,7 +60,7 @@ nav .nav-container{
     justify-self: left;
 }
 
-nav .nav-logo{
+.nav-logo{
     justify-self: center;
     display: grid;
     grid-template-areas: "left mid right";
@@ -67,7 +68,7 @@ nav .nav-logo{
 }
 
 .top-vase{
-    height: 40px;
+    height: 4rem;
 }
 
 nav .search-cart{
@@ -79,8 +80,8 @@ nav .search-cart{
 
 .mag-glass {
     max-width: 3rem;
-    margin-left: -30px;
-    margin-bottom: -3px;
+    margin-left: -3rem;
+    margin-bottom: -0.3px;
 }
 
 .main-p {
@@ -96,7 +97,7 @@ nav .search-cart{
 .picture-background{
     border-top: 70rem solid black;
     border-bottom: hidden;
-    margin-top: -47px;
+    margin-top: -4.7rem;
     width: 1000%;
     justify-self: center;
 }
@@ -107,9 +108,9 @@ nav .search-cart{
     grid-row-end: 3;
     color: white;
     font-size: 2rem;
-    margin-top: 40px;
+    margin-top: 4rem;
     z-index: 1;
-    width: 175px;
+    width: 17.5rem;
     text-transform: uppercase;
 }
 
@@ -128,15 +129,15 @@ nav .search-cart{
     grid-row-end: 3;
     color: white;
     font-size: 2rem;
-    margin-top: 150px;
+    margin-top: 15rem;
     z-index: 1;
     text-transform: uppercase;
-    width: 150px;
+    width: 15rem;
     justify-self: right;
 }
 #about{
-    margin-top: 750px;
-    font-size: 45px;
+    margin-top: 75rem;
+    font-size: 4.5rem;
 }
 
 .about-container{
@@ -176,7 +177,7 @@ nav .search-cart{
 }
 
 #products{
-    margin-top: 10rem;
+    margin-top: 20rem;
 }
 
 .product-container{
@@ -204,6 +205,7 @@ nav .search-cart{
     background-color:#BF7631;
     color: white;
     justify-self: right;
+    float: right;
 }
 
 a:hover, a:after, a:active{
@@ -214,7 +216,43 @@ a:hover, a:after, a:active{
     margin-top: 10rem;
 }
 
-.text-input{
-    justify-self: center;
-    max-width: 50%;
+.contact-container{
+    display: block;
+    padding-left: 25%;
+    
+}
+
+.text-input input{
+    width: 50%;
+}
+
+.text-field textarea{
+    width: 50%;
+}
+
+button{
+    background-color:#BF7631;
+    color: white;
+    justify-self: right;
+    cursor: pointer;
+}
+
+footer{
+    display: grid;
+    background-color: #BF7631;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.footer-logos{
+    display: inline-flex;
+}
+
+.footer-logos p{
+    font-size: 4rem;
+}
+
+.footer-text{
+    display: inline-flex;
+    justify-content: space-between;
 }
