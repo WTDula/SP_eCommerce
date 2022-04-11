@@ -45,6 +45,14 @@ h1 {
     font-size: 4.5rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+
+h3 {
+    font-size: 2rem;
+}
 
 a {
     text-decoration: none;
@@ -192,17 +200,38 @@ nav .search-cart{
     margin: 1rem;
 }
 
+.name-price{
+    display: grid;
+    grid-template-areas: "left right";
+    width: 100%;
+}
+
+.price{
+    justify-self: right;
+    float:right;
+}
+
 .product-card img{
     width: 100%;
     height: 40vh;
     overflow: hidden;
 }
 
+.name-price h2{
+    text-transform: uppercase;
+}
+
+.name-price h3{
+    justify-self: right;
+}
 .product-card a{
     color: #BF7631;
     text-decoration: underline;
+    font-size: 1.6rem;
 }
-
+.product-card p{
+    font-size: 1.5rem;
+}
 .product-card button{
     background-color:#BF7631;
     color: white;
