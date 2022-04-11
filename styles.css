@@ -94,7 +94,7 @@ nav .search-cart{
     grid-template-rows: repeat(2,50px);
 }
 .picture-background{
-    border-top: 700px solid black;
+    border-top: 70rem solid black;
     border-bottom: hidden;
     margin-top: -47px;
     width: 1000%;
@@ -145,18 +145,76 @@ nav .search-cart{
     grid-template-rows: repeat(4, 10rem);
 }
 
-.about-container .about-p1{
+.about-p1{
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
+    padding: 2rem;
 }
 
-.about-container .about-little{
+.about-p2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.about-little{
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: 4;
-    max-width: 80%;
+    max-width: 65%;
+}
+
+.about-big{
+    justify-self: right;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    max-width: 90%;
+    margin-left: 5rem;
+
+}
+
+#products{
+    margin-top: 10rem;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    max-width: 30%;
+    margin: 1rem;
+}
+
+.product-card img{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.product-card a{
+    color: #BF7631;
+    text-decoration: underline;
+}
+
+.product-card button{
+    background-color:#BF7631;
+    color: white;
+    justify-self: right;
 }
 
 a:hover, a:after, a:active{
     color: black;
+}
+
+#contact{
+    margin-top: 10rem;
+}
+
+.text-input{
+    justify-self: center;
+    max-width: 50%;
 }
